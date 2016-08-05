@@ -56,10 +56,10 @@ day2_pm: "SQL for data management"
   the pitch.
 -->
 <p>
-<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
-who has data they want to analyze, and no prior computational experience is required. 
-This hands-on workshop teaches basic concepts, skills and tools for working more 
-effectively with data. 
+<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher
+who has data they want to analyze, and no prior computational experience is required.
+This hands-on workshop teaches basic concepts, skills and tools for working more
+effectively with data.
 </p>
 <p>
 We will cover {{page.day1_am}}, {{page.day1_pm}}, {{page.day2_am}} and {{page.day2_pm}}.
@@ -103,7 +103,7 @@ Participants should bring their laptops and plan to participate actively. By the
   Modify the block below if there are any special requirements.
 -->
 <p>
-  <strong>Requirements:</strong> Participants must bring a laptop with a 
+  <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
@@ -156,8 +156,8 @@ Participants should bring their laptops and plan to participate actively. By the
       <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
        <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
     </table>
- 
- 
+
+
     <h3>Day 2</h3>
     <table class="table table-striped">
       <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
@@ -205,65 +205,44 @@ Participants should bring their laptops and plan to participate actively. By the
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
-<!--
+
 <h2>Syllabus</h2>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>The Unix Shell</h3>
+    <h3>Data organization in spreadsheets and OpenRefine</h3>
     <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_lessons}}/ref/01-shell.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
+        <li>Formatting data</li>
+        <li>Common formatting problems</li>
+        <li>Dates as data</li>
+        <li>Quality control</li>
+        <li>Exporting data</li>
+        <li>Data Format Caveats</li>
+        <li>Data cleaning with OpenRefine</li>
+        <li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/">Data organization in spreadsheets lesson notes</a></li>
+        <li><a href="http://datacarpentry.github.io/OpenRefine-ecology/">Data cleaning with OpenRefine lesson notes</a></li>
     </ul>
   </div>
 
   <div class="col-md-6">
-    <h3>Programming in R</h3>
+    <h3>Programming in Python</h3>
     <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li>
+        <li>Variables and Assignment</li>
+        <li>Data Types and Type Conversion</li>
+        <li>Libraries</li>
+        <li>Lists and Indexing</li>
+        <li>Reading Tabular Data into Pandas Data Frames</li>
+        <li>Plotting</li>
+        <li>Loops and conditionals</li>
+        <li>Writing Functions</li>
+        <li><a href="https://alistairwalsh.github.io/python-novice-gapminder/">Python lesson materials</a></li>
     </ul>
   </div>
 
 </div>
 
 <div class="row">
-  <div class="col-md-6">
-    <h3>Version Control with Git</h3>
-    <ul>
-      <li>Creating a repository</li>
-      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring files</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Resolving conflicts</li>
-      <li>Open licenses</li>
-      <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
-    </ul>
-  </div>
+
   <div class="col-md-6">
     <h3>Managing Data with SQL</h3>
     <ul>
@@ -275,14 +254,12 @@ Participants should bring their laptops and plan to participate actively. By the
       <li>Combining information from multiple tables using <code>join</code></li>
       <li>Creating, modifying, and deleting data</li>
       <li>Programming with databases</li>
-      <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li>
+      <li><a href="http://swcarpentry.github.io/sql-novice-survey/">SQL lesson materials</a></li>
     </ul>
   </div>
 </div>
 
-
 <hr/>
--->
 
 <!--
   SETUP
@@ -299,10 +276,10 @@ Participants should bring their laptops and plan to participate actively. By the
 <h2 id="setup">Setup</h2>
 
 <p>
-To participate in a Data Carpentry workshop, you will need working copies of the 
-described software. Please make sure to install everything (or at least to download 
-the installers) before the start of your workshop. Participants should bring and use 
-their own laptops to insure the proper setup of tools for an efficient workflow 
+To participate in a Data Carpentry workshop, you will need working copies of the
+described software. Please make sure to install everything (or at least to download
+the installers) before the start of your workshop. Participants should bring and use
+their own laptops to insure the proper setup of tools for an efficient workflow
 once you leave the workshop.
 <p>
 Please follow these <a href=install.html>Setup Instructions</a>.
@@ -312,4 +289,3 @@ Please follow these <a href=install.html>Setup Instructions</a>.
   that may be useful on the
   <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
